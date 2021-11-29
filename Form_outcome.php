@@ -1,5 +1,5 @@
 <?php
-define("DB_NAME", "dynamite");
+define("DB_NAME", "Dynamite");
 define("DB_USER", "admin");
 define("DB_PASSWORD", "password");
 define("DB_HOST", "localhost");
@@ -14,7 +14,7 @@ else {
 }
 $db_selected = mysqli_select_db($connection, DB_NAME);
 if (!$db_selected){
-    die('Can\'t use' .DB_NAME.': ' .mysqli_error($connection));
+    die('Can\'t use ' .DB_NAME.': ' .mysqli_error($connection));
 }
 $name = $_POST["name"]; 
 $phone = $_POST["ContactNumber"];
