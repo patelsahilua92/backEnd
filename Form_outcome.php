@@ -19,9 +19,9 @@ if (!$db_selected){
 $name = $_POST["name"]; 
 $phone = $_POST["ContactNumber"];
 $email = $_POST["email"];
-$dateofbirth = $_POST["DateofBirth"];
+$dateofbirth = $_POST["Address"];
 
-$sql = "INSERT INTO form(name, email, number, dateofbirth) VALUES ('$name', '$email', $phone, '$dateofbirth')";
+$sql = "INSERT INTO form(name, email, number, address) VALUES ('$name', '$email', $phone, '$address')";
 if(!mysqli_query($connection, $sql)){
     die("Error:".mysqli_error($connection));
 }

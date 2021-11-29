@@ -12,7 +12,7 @@
 <center>Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
 Contact Number: <input type="integer" name="ContactNumber"><br>
-Date Of Birth: <input type="date" name="DateofBirth"><br>
+Date Of Birth: <input type="text" name="Address"><br>
 <input type="submit"></center>
 
 </form>
