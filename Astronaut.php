@@ -9,10 +9,9 @@
 </body>
 <body>  
 <form action="Form_outcome.php" method ="POST">
-<center>Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
-Contact Number: <input type="integer" name="ContactNumber"><br>
-Date Of Birth: <input type="date" name="DateofBirth"><br>
+<center>astronaut_id: <input type="integer" name="astronaut_id"><br>
+name: <input type="text" name="name"><br>
+no_missions: <input type="integer" name="no_missions"><br>
 <input type="submit"></center>
 
 </form>
