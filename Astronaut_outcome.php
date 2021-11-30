@@ -28,3 +28,5 @@ else{
     echo "Data Inserted";
 }
 mysqli_close($connection);
+
+?>
