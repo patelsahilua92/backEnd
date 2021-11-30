@@ -16,8 +16,8 @@ $db_selected = mysqli_select_db($connection, DB_NAME);
 if (!$db_selected){
     die('Can\'t use ' .DB_NAME.': ' .mysqli_error($connection));
 }
-$name = $_POST["name"];
-$email = $_POST["email"]; 
+$name = $_POST["Name"];
+$email = $_POST["Email"]; 
 $phone = $_POST["ContactNumber"];
 $address = $_POST["Address"];
 
