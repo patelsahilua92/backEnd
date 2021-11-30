@@ -2,8 +2,13 @@
 <html>
     <head>
         <title>MY first PHP</title>
+        <style>
+              body {
+          background-color: yellowgreen;
+        }
+        </style>
 </head>
-<h1 style="background-color:DodgerBlue;"></h1>
+
 <body>
     
     <center><h1>The PHP FORM</h1></center>                                                                                                                  
