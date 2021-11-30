@@ -20,7 +20,7 @@ $astronaut_id = $_POST["astronaut_id"];
 $name = $_POST["name"]; 
 $no_missions = $_POST["no_missions"];
 
-$sql = "INSERT INTO astronaut(astronaut_id, name, no_mission) VALUES ('$astronaut_id', '$name', '$no_mission')";
+$sql = "INSERT INTO astronaut(astronaut_id, name, no_missions) VALUES ('$astronaut_id', '$name', '$no_missions')";
 if(!mysqli_query($connection, $sql)){
     die("Error:".mysqli_error($connection));
 }
