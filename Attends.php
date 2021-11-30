@@ -26,10 +26,10 @@ color: red;
             <a class="nav-link " aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="Astronaut.php">Astronaut Form</a>
+            <a class="nav-link " href="Astronaut.php">Astronaut Form</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Attends.php">Attend Form</a>
+            <a class="nav-link active" href="Attends.php">Attend Form</a>
              </li>
           <li class="nav-item">
           <a class="nav-link" href="form.html">Contact As</a>
