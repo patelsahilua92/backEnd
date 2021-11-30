@@ -13,7 +13,7 @@ color: red;
       </style>
   </head>
   </head>
-  <center><h1 style="background-color:DodgerBlue;">Welcome to my PetShop</h1></center>
+  <center><h1 style="background-color:DodgerBlue;">Welcome to my PHP</h1></center>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       
