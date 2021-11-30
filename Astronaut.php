@@ -29,7 +29,7 @@ color: red;
             <a class="nav-link active" href="Astronaut.php">Astronaut Form</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="shopping cart main.html">Shopping Cart</a>
+            <a class="nav-link" href="Attends.php">Attends Form</a>
              </li>
           <li class="nav-item">
           <a class="nav-link" href="form.html">Contact As</a>
