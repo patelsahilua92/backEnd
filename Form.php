@@ -3,6 +3,7 @@
     <head>
         <title>MY first PHP</title>
 </head>
+<h1 style="background-color:DodgerBlue;"></h1>
 <body>
     
     <center><h1>The PHP FORM</h1></center>                                                                                                                  
