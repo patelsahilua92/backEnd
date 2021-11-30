@@ -16,12 +16,12 @@ $db_selected = mysqli_select_db($connection, DB_NAME);
 if (!$db_selected){
     die('Can\'t use ' .DB_NAME.': ' .mysqli_error($connection));
 }
-$name = $_POST["name"]; 
+$name = $_POST["name"];
+$email = $_POST["email"]; 
 $phone = $_POST["ContactNumber"];
-$email = $_POST["email"];
 $address = $_POST["Address"];
 
-$sql = "INSERT INTO form(name, email, number, address) VALUES ('$name', '$email', $phone, '$address')";
+$sql = "INSERT INTO form(Name, Email, ContactNumber, Address) VALUES ('$name', '$email', $phone, '$address')";
 if(!mysqli_query($connection, $sql)){
     die("Error:".mysqli_error($connection));
 }
