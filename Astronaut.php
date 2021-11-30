@@ -4,6 +4,11 @@
         <title>MY first PHP</title>
 </head>
 <body>
+<style>
+              body {
+          background-color: yellowgreen;
+        }
+        </style>
     
     <center><h1>The Astronaut</h1></center>                                                                                                                  
 </body>
