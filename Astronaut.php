@@ -5,7 +5,7 @@
 </head>
 <body>
     
-    <center><h1>The PHP FORM</h1></center>                                                                                                                  
+    <center><h1>The Astronaut</h1></center>                                                                                                                  
 </body>
 <body>  
 <form action="Form_outcome.php" method ="POST">
