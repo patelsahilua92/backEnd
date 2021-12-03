@@ -61,9 +61,9 @@ color: red;
 </body>
 <body>  
 <form action="Astronaut_outcome.php" method ="POST">
-<center>astronaut_id: <input type="integer" name="astronaut_id"><br>
+<center>
 name: <input type="text" name="name"><br>
-no_missions: <input type="integer" name="no_missions"><br>
+no_missions: <input type="number" name="no_missions"><br>
 <input type="submit"></center>
 
 </form>
