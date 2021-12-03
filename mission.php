@@ -55,7 +55,7 @@ color: red;
         }
         </style>
     
-    <center><h1>The Mission</h1></center>                                                                                                                  
+    <center><h1>The Mission Form</h1></center>                                                                                                                  
 </body>
 <body>  
 <form action="mission_outcome.php" method ="POST">
