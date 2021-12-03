@@ -29,10 +29,10 @@ color: red;
             <a class="nav-link " href="Astronaut.php">Astronaut Form</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="Attends.php">Attend Form</a>
+            <a class="nav-link " href="Attends.php">Attend Form</a>
              </li>
           <li class="nav-item">
-          <a class="nav-link" href="form.html">Contact As</a>
+          <a class="nav-link active" href="Target.php">Target Form</a>
            </li>
            
         </ul>
@@ -55,10 +55,12 @@ color: red;
     <center><h1>The Attends</h1></center>                                                                                                                  
 </body>
 <body>  
-<form action="Attends_outcome.php" method ="POST">
-<center>mission_name: <input type="integer" name="mission_name"><br>
-no_mission: <input type="text" name="no_mission"><br>
-astronaut_id: <input type="integer" name="astronaut_id"><br>
+<form action="Targets_outcome.php" method ="POST">
+<center>first_mission: <input type="integer" name="first_mission"><br>
+id: <input type="integer" name="id"><br>
+name: <input type="text" name="name"><br>
+no_mission: <input type="integer" name="no_mission"><br>
+type: <input type="text" name="type"><br>
 <input type="submit"></center>
 
 </form>
