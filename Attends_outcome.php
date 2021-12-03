@@ -17,10 +17,9 @@ if (!$db_selected){
     die('Can\'t use ' .DB_NAME.': ' .mysqli_error($connection));
 }
 $mission_name = $_POST["mission_name"];
-$no_mission = $_POST["no_mission"]; 
 $astronaut_id = $_POST["astronaut_id"];
 
-$sql = "INSERT INTO Attends(mission_name, no_mission, astronaut_id) VALUES ('$astronaut_id', '$name', '$no_missions')";
+$sql = "INSERT INTO Attends(mission_name, astronaut_id) VALUES ('$mission_name', '$astronaut_id')";
 if(!mysqli_query($connection, $sql)){
     die("Error:".mysqli_error($connection));
 }

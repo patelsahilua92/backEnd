@@ -62,7 +62,7 @@ color: red;
 <center>Mission_id: <input type="integer" name="Mission_id"><br>
 name: <input type="text" name="name"><br>
 destination: <input type="text" name="destination"><br>
-launch_date: <input type="text" name="launch_date"><br>
+launch_date: <input type="date" name="launch_date"><br>
 type: <input type="text" name="type"><br>
 crew_size: <input type="text" name="crew_size"><br>
 target_id: <input type="text" name="target_id"><br>

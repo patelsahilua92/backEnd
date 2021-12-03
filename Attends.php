@@ -60,7 +60,7 @@ color: red;
 <body>  
 <form action="Attends_outcome.php" method ="POST">
 <center>mission_name: <input type="integer" name="mission_name"><br>
-no_mission: <input type="text" name="no_mission"><br>
+
 astronaut_id: <input type="integer" name="astronaut_id"><br>
 <input type="submit"></center>
 
