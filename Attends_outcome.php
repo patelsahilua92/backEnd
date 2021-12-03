@@ -16,10 +16,10 @@ $db_selected = mysqli_select_db($connection, DB_NAME);
 if (!$db_selected){
     die('Can\'t use ' .DB_NAME.': ' .mysqli_error($connection));
 }
-$mission_name = $_POST["mission_name"];
+$mission_id = $_POST["mission_id"];
 $astronaut_id = $_POST["astronaut_id"];
 
-$sql = "INSERT INTO Attends(mission_name, astronaut_id) VALUES ('$mission_name', '$astronaut_id')";
+$sql = "INSERT INTO Attends(mission_id, astronaut_id) VALUES ('$mission_id', '$astronaut_id')";
 if(!mysqli_query($connection, $sql)){
     die("Error:".mysqli_error($connection));
 }
