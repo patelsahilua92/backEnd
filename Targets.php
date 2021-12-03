@@ -63,7 +63,7 @@ color: red;
 <form action="targets_outcome.php" method ="POST">
 <center>id: <input type="integer" name="id"><br>
 name: <input type="text" name="name"><br>
-first_mission: <input type="integer" name="first_mission"><br>
+first_mission: <input type="date" name="first_mission"><br>
 type: <input type="text" name="type"><br>
 no_mission: <input type="text" name="no_mission"><br>
 <input type="submit"></center>
