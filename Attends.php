@@ -32,7 +32,7 @@ color: red;
             <a class="nav-link active" href="Attends.php">Attend Form</a>
              </li>
           <li class="nav-item">
-          <a class="nav-link" href="mission.php">CoMission Form</a>
+          <a class="nav-link" href="mission.php">Mission Form</a>
            </li>
            
         </ul>
