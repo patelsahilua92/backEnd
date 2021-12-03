@@ -34,6 +34,9 @@ color: red;
           <li class="nav-item">
           <a class="nav-link active" href="mission.php">Mission Form</a>
            </li>
+           <li class="nav-item">
+          <a class="nav-link" href="targets.php">Target Form</a>
+           </li>
            
         </ul>
         <form class="d-flex">
