@@ -61,7 +61,7 @@ color: red;
 </body>
 <body>  
 <form action="mission_outcome.php" method ="POST">
-<center>Mission_id: <input type="integer" name="Mission_id"><br>
+<center>
 name: <input type="text" name="name"><br>
 destination: <input type="text" name="destination"><br>
 launch_date: <input type="date" name="launch_date"><br>
