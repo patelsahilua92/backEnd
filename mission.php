@@ -29,10 +29,10 @@ color: red;
             <a class="nav-link " href="Astronaut.php">Astronaut Form</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="Attends.php">Attend Form</a>
+            <a class="nav-link " href="Attends.php">Attend Form</a>
              </li>
           <li class="nav-item">
-          <a class="nav-link" href="mission.php">Mission Form</a>
+          <a class="nav-link active" href="mission.php">Mission Form</a>
            </li>
            <li class="nav-item">
           <a class="nav-link" href="Targets.php">Target Form</a>
@@ -55,13 +55,17 @@ color: red;
         }
         </style>
     
-    <center><h1>The Attends</h1></center>                                                                                                                  
+    <center><h1>The Mission</h1></center>                                                                                                                  
 </body>
 <body>  
-<form action="Attends_outcome.php" method ="POST">
-<center>mission_name: <input type="integer" name="mission_name"><br>
-no_mission: <input type="text" name="no_mission"><br>
-astronaut_id: <input type="integer" name="astronaut_id"><br>
+<form action="mission_outcome.php" method ="POST">
+<center>Mission_id: <input type="integer" name="Mission_id"><br>
+name: <input type="text" name="name"><br>
+destination: <input type="text" name="destination"><br>
+launch_date: <input type="text" name="launch_date"><br>
+type: <input type="text" name="type"><br>
+crew_size: <input type="text" name="crew_size"><br>
+target_id: <input type="text" name="target_id"><br>
 <input type="submit"></center>
 
 </form>
