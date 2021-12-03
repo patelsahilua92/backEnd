@@ -29,10 +29,10 @@ color: red;
             <a class="nav-link " href="Astronaut.php">Astronaut Form</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="Attends.php">Attend Form</a>
+            <a class="nav-link " href="Attends.php">Attend Form</a>
              </li>
           <li class="nav-item">
-          <a class="nav-link" href="mission.php">Mission Form</a>
+          <a class="nav-link active" href="mission.php">Mission Form</a>
            </li>
            
         </ul>
