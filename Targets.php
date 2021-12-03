@@ -55,7 +55,7 @@ color: red;
         }
         </style>
     
-    <center><h1>The Attends</h1></center>                                                                                                                  
+    <center><h1>The Targets</h1></center>                                                                                                                  
 </body>
 <body>  
 <form action="targets_outcome.php" method ="POST">
