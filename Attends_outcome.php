@@ -1,6 +1,6 @@
 <?php
 define("DB_NAME", "Dynamite");
-define("DB_USER", "admin");
+define("DB_USER", "admin"); 
 define("DB_PASSWORD", "password");
 define("DB_HOST", "localhost");
 
@@ -20,8 +20,8 @@ $mission_id = $_POST["mission_id"];
 $astronaut_id = $_POST["astronaut_id"];
 
 $sql = "INSERT INTO Attends(mission_id, astronaut_id) VALUES ('$mission_id', '$astronaut_id')";
-if(!mysqli_query($connection, $sql)){
-    die("Error:".mysqli_error($connection));
+if(mysqli_query($connection, $sql) === True){
+    
 }
 else{
     echo "Data Inserted";
