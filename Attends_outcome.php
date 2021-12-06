@@ -20,9 +20,9 @@ $mission_id = $_POST["mission_id"];
 $astronaut_id = $_POST["astronaut_id"];
 
 $sql = "INSERT INTO Attends(mission_id, astronaut_id) VALUES ('$mission_id', '$astronaut_id')";
-if($connection->query ($sql) === True){
+if($connection->query ($sql) === TRUE){
   $update =  "UPDATE mission SET crew_size = crew_size +1 WHERE Mission_id = $mission_id";
-  mysql_query($connection,$update);
+  mysql_query($connection, $update);
     
 }
 else{
