@@ -22,7 +22,7 @@ $first_mission = $_POST["first_mission"];
 $type = $_POST["type"];
 $no_mission = $_POST["no_mission"];
 
-$sql = "INSERT INTO targets(id, name, first_mission, type, no_mission) VALUES ('$id', '$name', '$first_mission', '$type', '$no_mission')";
+$sql = "INSERT INTO targets( id, name, first_mission, type, no_mission) VALUES ( '$id', '$name', '$first_mission', '$type', '$no_mission')";
 if(!mysqli_query($connection, $sql)){
     die("Error:".mysqli_error($connection));
 }

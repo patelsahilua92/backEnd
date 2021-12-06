@@ -61,7 +61,7 @@ color: red;
 </body>
 <body>  
 <form action="targets_outcome.php" method ="POST">
-<center>id: <input type="integer" name="id"><br>
+<center>
 name: <input type="text" name="name"><br>
 first_mission: <input type="date" name="first_mission"><br>
 type: <input type="text" name="type"><br>
