@@ -27,7 +27,7 @@ if($connection->query ($sql) === TRUE){
     
 }
 else{
-    die("Error:".mysql_error($connection));
+    die("Error:".mysqli_error($connection));
 }
 mysqli_close($connection);
 
