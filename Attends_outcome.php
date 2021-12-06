@@ -24,6 +24,9 @@ if($connection->query ($sql) === TRUE){
 
   $update =  "UPDATE mission SET crew_size = crew_size + 1 WHERE mission_id = $mission_id";
   mysqli_query($connection, $update);
+
+  $update_astronaut_id =  "UPDATE astronaut SET no_mission = no_mission + 1 WHERE astronaut_id = $astronaut_id";
+  mysqli_query($connection, $update_astronaut_id);
     
 }
 else{
