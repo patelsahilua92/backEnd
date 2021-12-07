@@ -59,7 +59,9 @@ name: <input type="text" name="name"><br>
 first_mission: <input type="date" name="first_mission"><br>
 type: <input type="text" name="type"><br>
 no_mission: <input type="number" name="no_mission"><br>
-<input type="submit"></center>
+<input type="submit">
+<a href="table_tar.php">"Show Table"</a></center>
+<button>Show Table</button>
 
 </form>
 </body>
