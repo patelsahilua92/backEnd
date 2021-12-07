@@ -61,7 +61,7 @@
 <center>
 <div class="w3-text-red">
 name: <input type="text" name="name"><br><br>
-no missions: <input type="number" name="no_missions"><br><br>
+no_missions: <input type="number" name="no_missions"><br><br>
 <input type="submit">
 </center>
       </div>
