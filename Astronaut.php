@@ -61,5 +61,6 @@ no_missions: <input type="number" name="no_missions"><br><br>
 <input type="table"></center>
 
 </form>
+<center><a href="table_ast.php"><button>Show Table</button></a></center>
 </body>
 </html>
