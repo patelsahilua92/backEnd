@@ -57,7 +57,8 @@
 <center>
 name: <input type="text" name="name"><br>
 no_missions: <input type="number" name="no_missions"><br>
-<input type="submit"></center>
+<input type="submit">
+<input type="table"></center>
 
 </form>
 </body>

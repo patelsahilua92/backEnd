@@ -13,7 +13,7 @@
             <th>no_mission</th>
 </tr>
 <?php
-$conn = mysqli_connect("localhost","root","password","admin");
+$conn = mysqli_connect("Dynamite","admin","password","localhost");
 if ($conn-> connect_error) {
     die("Connection failed:". $conn-> connect_error);
 }
