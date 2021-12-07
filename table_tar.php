@@ -10,7 +10,7 @@
             <th>name</th>
             <th>first_mission</th>
             <th>type</th>
-            <th>no_mission</th>
+            <th>no_mission<th>
 </tr>
 <?php
 $conn = mysqli_connect("Dynamite","admin","password","localhost");
@@ -18,11 +18,11 @@ if ($conn-> connect_error) {
     die("Connection failed:". $conn-> connect_error);
 }
 
-$sql = "SELECT id, name, first_mission, type, no_mission from targets";
-$result = $conn-> query($sql);
+$sql = "SELECT * FROM sample targets";
+$result = mysqli_query($conn, $sql);
 
-if ($result-> num_rows > 0) {
-    while ($row = $result-> fetch_assoc()) {
+if (mysqli_num_rows($result) > 0) { 
+    while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr><td>" . $row["id"] . "</td><td>" . $row["name"] . "</td><td>" . $row[
             "first_mission"] . "</td><td>" . $row["type"] . "</td><td>" . $row["no_mission"] . "</td></tr>";
         }
