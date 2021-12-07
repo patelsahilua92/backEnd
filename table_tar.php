@@ -10,7 +10,7 @@
             <th>name</th>
             <th>first_mission</th>
             <th>type</th>
-            <th>no_mission<th>
+            <th>no_mission</th>
 </tr>
 <?php
 $conn = mysqli_connect("Dynamite","admin","password","localhost");
