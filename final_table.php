@@ -7,7 +7,7 @@
     <table>
         <tr>
             <th>Id</th>
-            <th>name</th>
+            <th>Username</th>
             <th>Password</th>
 </tr>
 <?php
@@ -16,13 +16,13 @@ if ($conn-> connect_error) {
     die("Connection failed:". $conn-> connect_error);
 }
 
-$sql = "SELECT *FROM sample";
+$sql = "SELECT * FROM sample";
 $result = mysqli_query($conn, $sql);
 
-if (mysqli_num_rows($result) > 0) {
-    while ($row = mysqli_fetch_assoc()) {
-        echo "<tr><td>" . $row["id"] . "</td><td>" . $row["username"] . "</td><td>" . $row[
-            "password"] . "</td></tr>";
+if (mysqli_num_rows($result) > 0) { 
+    while ($row = mysqli_fetch_assoc($result)) {
+        echo "<tr><td>" . $row["id"] . "</td><td>" . $row["Username"] . "</td><td>" . $row[
+            "Password"] . "</td></tr>";
         }
         echo "</table>";
 }
