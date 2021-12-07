@@ -61,9 +61,10 @@ type: <input type="text" name="type"><br>
 no_mission: <input type="number" name="no_mission"><br>
 <input type="submit">
 <br>
-<a href="table_tar.php"><button>Show Table</button></a></center>
+</center>
 
 
 </form>
+<a href="table_tar.php"><button>Show Table</button></a>
 </body>
 </html>
