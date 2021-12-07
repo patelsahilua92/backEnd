@@ -56,7 +56,7 @@
 <form action="Astronaut_outcome.php" method ="POST">
 <center>
 name: <input type="text" name="name"><br><br>
-no_missions: <input type="number" name="no_missions"><br><br>
+no missions: <input type="number" name="no_missions"><br><br>
 <input type="submit">
 </center>
 
