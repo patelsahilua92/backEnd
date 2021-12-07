@@ -64,5 +64,6 @@ target_id: <input type="text" name="target_id"><br>
 <input type="submit"></center>
 
 </form>
+<a href="table_mis.php"><button>Show Table</button></a></center>
 </body>
 </html>
