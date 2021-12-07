@@ -8,13 +8,16 @@
 <body>
     
 <table class="w3-table-all w3-hoverable">
-        <tr>
+    <thead>
+    <tr class="w3-light-grey">
             <th>id</th>
             <th>name</th>
             <th>first_mission</th>
             <th>type</th>
             <th>no_mission</th>
+
 </tr>
+</thead>
 <?php
 $conn = mysqli_connect("localhost","admin","password","Dynamite");
 if ($conn-> connect_error) {
