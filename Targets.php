@@ -65,6 +65,7 @@ no_mission: <input type="number" name="no_mission"><br>
 
 
 </form>
-<a href="table_tar.php"><button>Show Table</button></a>
+<center>
+<a href="table_tar.php"><button>Show Table</button></a></center>
 </body>
 </html>
