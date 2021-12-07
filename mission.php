@@ -59,12 +59,12 @@
 <form action="mission_outcome.php" method ="POST">
 <center>
 <div class="w3-text-red">
-name: <input type="text" name="name"><br>
-destination: <input type="text" name="destination"><br>
-launch_date: <input type="date" name="launch_date"><br>
-type: <input type="text" name="type"><br>
-crew_size: <input type="text" name="crew_size"><br>
-target_id: <input type="text" name="target_id"><br>
+name: <input type="text" name="name"><br><br>
+destination: <input type="text" name="destination"><br><br>
+launch_date: <input type="date" name="launch_date"><br><br>
+type: <input type="text" name="type"><br><br>
+crew_size: <input type="text" name="crew_size"><br><br>
+target_id: <input type="text" name="target_id"><br><br>
 <input type="submit"></center>
       </div>
 
