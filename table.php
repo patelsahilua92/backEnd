@@ -7,7 +7,7 @@
     <table>
         <tr>
             <th>Id</th>
-            <th>Username</th>
+            <th>name</th>
             <th>Password</th>
 </tr>
 <?php
