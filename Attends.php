@@ -64,5 +64,6 @@ astronaut_id: <input type="integer" name="astronaut_id"><br>
 </div> 
 
 </form>
+<center><a href="table_att.php"><button>Show Table</button></a></center>
 </body>
 </html>
