@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <table class="w3-table w3-striped">
+<table class="w3-table-all w3-hoverable">
         <tr>
             <th>id</th>
             <th>name</th>
