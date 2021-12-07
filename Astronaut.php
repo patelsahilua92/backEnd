@@ -58,7 +58,7 @@
 name: <input type="text" name="name"><br><br>
 no_missions: <input type="number" name="no_missions"><br><br>
 <input type="submit">
-<input type="table"></center>
+</center>
 
 </form>
 <center><a href="table_ast.php"><button>Show Table</button></a></center>
