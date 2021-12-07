@@ -26,7 +26,9 @@ if (mysqli_num_rows($result) > 0) {
         echo "<tr><td>" . $row["id"] . "</td><td>" . $row["name"] . "</td><td>" . $row[
             "first_mission"] . "</td><td>" . $row["type"] . "</td><td>" . $row["no_mission"] . "</td></tr>";
         }
-        echo "</table>";
+}
+else{
+    echo  "0 results";
 }
 ?>
 </table>
