@@ -58,11 +58,12 @@
 <body>  
 <div class="w3-text-red">
 <form action="Attends_outcome.php" method ="POST">
-<center>mission_id: <input type="number" name="mission_id"><br>
-astronaut_id: <input type="integer" name="astronaut_id"><br>
+<center>mission_id: <input type="number" name="mission_id"><br><br>
+astronaut_id: <input type="integer" name="astronaut_id"><br><br>
 <input type="submit"></center>
 </div> 
 
 </form>
+<center><a href="table_att.php"><button>Show Table</button></a></center>
 </body>
 </html>

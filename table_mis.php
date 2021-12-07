@@ -6,16 +6,18 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    
 <table class="w3-table-all w3-hoverable">
     <thead>
     <tr class="w3-light-grey">
-            <th>id</th>
+    
+        
+            <th>Mission_id</th>
             <th>name</th>
-            <th>first_mission</th>
+            <th>destination</th>
+            <th>launch_date</th>
             <th>type</th>
-            <th>no_mission</th>
-
+            <th>crew_size</th>
+            <th>target_id</th>
 </tr>
 </thead>
 <?php
@@ -24,13 +26,13 @@ if ($conn-> connect_error) {
     die("Connection failed:". $conn-> connect_error);
 }
 
-$sql = "SELECT * FROM targets";
+$sql = "SELECT * FROM mission";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) { 
     while ($row = mysqli_fetch_assoc($result)) {
-        echo "<tr><td>" . $row["id"] . "</td><td>" . $row["name"] . "</td><td>" . $row[ "first_mission"] . "</td><td>" . $row["type"] . 
-        "</td><td>" . $row["no_mission"] . "</td></tr>";
+        echo "<tr><td>" . $row["name"] . "</td><td>" . $row[ "destination"] . "</td><td>" . $row["launch_date"] . 
+        "</td><td>" . $row["type"] . "</td><td>" . $row["crew_size"] . "</td><td>" . $row["target_id"] . "</td></tr>";
         }
 }
 else{
