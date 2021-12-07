@@ -55,8 +55,8 @@
 <body background="sky 2.jfif">  
 <form action="Astronaut_outcome.php" method ="POST">
 <center>
-name: <input type="text" name="name"><br>
-no_missions: <input type="number" name="no_missions"><br>
+name: <input type="text" name="name"><br><br>
+no_missions: <input type="number" name="no_missions"><br><br>
 <input type="submit">
 <input type="table"></center>
 

@@ -55,10 +55,10 @@
 <body background="sky 2.jfif">  
 <form action="targets_outcome.php" method ="POST">
 <center>
-name: <input type="text" name="name"><br>
-first_mission: <input type="date" name="first_mission"><br>
-type: <input type="text" name="type"><br>
-no_mission: <input type="number" name="no_mission"><br>
+name: <input type="text" name="name"><br><br>
+first_mission: <input type="date" name="first_mission"><br><br>
+type: <input type="text" name="type"><br><br>
+no_mission: <input type="number" name="no_mission"><br><br>
 <input type="submit">
 <br>
 </center>
