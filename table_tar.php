@@ -18,7 +18,7 @@ if ($conn-> connect_error) {
     die("Connection failed:". $conn-> connect_error);
 }
 
-$sql = "SELECT * FROM sample targets";
+$sql = "SELECT * FROM targets";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) { 
