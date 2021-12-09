@@ -55,6 +55,6 @@ else{
 }
 ?>
 </table>
-<a href="mission.php"><button>Return</button></a>
+<center><a href="mission.php"><button>Return</button></a></center>
 </body>
 </html>
