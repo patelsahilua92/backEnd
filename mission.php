@@ -65,7 +65,7 @@ launch_date: <input type="date" name="launch_date"><br><br>
 type: <input type="text" name="type"><br><br>
 crew_size: <input type="text" name="crew_size"><br><br>
 target_id: <input type="text" name="target_id"><br><br>
-<input type="submit"></center>
+<input type="submit"></center><br><br>
       </div>
 
 </form>

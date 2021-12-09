@@ -60,7 +60,7 @@
 <form action="Attends_outcome.php" method ="POST">
 <center>mission_id: <input type="number" name="mission_id"><br><br>
 astronaut_id: <input type="integer" name="astronaut_id"><br><br>
-<input type="submit"></center>
+<input type="submit"></center><br><br>
 </div> 
 
 </form>

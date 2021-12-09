@@ -63,7 +63,7 @@ name: <input type="text" name="name"><br><br>
 first_mission: <input type="date" name="first_mission"><br><br>
 type: <input type="text" name="type"><br><br>
 no_mission: <input type="number" name="no_mission"><br><br>
-<input type="submit">
+<input type="submit"><br><br>
 <br>
 </center>
       </div>
