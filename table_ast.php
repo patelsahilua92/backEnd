@@ -24,7 +24,7 @@
 <table class="w3-table-all w3-hoverable">
     <thead>
     <tr class="w3-light-grey">
-        <th>astronaut_id</th>
+            <th>astronaut_id</th>
             <th>name</th>
             <th>no_missions</th>
 </thead>
