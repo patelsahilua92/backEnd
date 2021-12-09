@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
+    <!-- this is a table code here-->
 <table class="w3-table-all w3-hoverable">
     <thead>
     <tr class="w3-light-grey">
@@ -28,7 +29,7 @@ if ($conn-> connect_error) {
 
 $sql = "SELECT * FROM mission";
 $result = mysqli_query($conn, $sql);
-
+// this code shows the outcome of database 
 if (mysqli_num_rows($result) > 0) { 
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr><td>" . $row[Mission_id] . "</td><td>" . $row["name"] . "</td><td>" . $row[ "destination"] . "</td><td>" . $row["launch_date"] . 

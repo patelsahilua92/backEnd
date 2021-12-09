@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
     <head>
+      <!-- this code is from bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +11,7 @@
   <center><h1 style="background-color:DodgerBlue;">Welcome to Dynamite forms</h1></center>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      
+      <!-- this is a nav-bar code-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,6 +37,7 @@
            
         </ul>
         <form class="d-flex">
+          <!-- this one is search button code-->
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
@@ -57,6 +59,7 @@
 </body>
 <body>  
 <div class="w3-text-red">
+  <!-- this is a attends form code-->
 <form action="Attends_outcome.php" method ="POST">
 <center>mission_id: <input type="number" name="mission_id"><br><br>
 astronaut_id: <input type="integer" name="astronaut_id"><br><br>
@@ -64,6 +67,7 @@ astronaut_id: <input type="integer" name="astronaut_id"><br><br>
 </div> 
 
 </form>
+<!-- this code can help us to open the database table-->
 <center><a href="table_att.php"><button>Show Table</button></a></center>
 </body>
 </html>

@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    
+ <!-- this is a table code-->   
 <table class="w3-table-all w3-hoverable">
     <thead>
     <tr class="w3-light-grey">
@@ -26,7 +26,7 @@ if ($conn-> connect_error) {
 
 $sql = "SELECT * FROM targets";
 $result = mysqli_query($conn, $sql);
-
+// here is the code for seeing the information which database have 
 if (mysqli_num_rows($result) > 0) { 
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr><td>" . $row["id"] . "</td><td>" . $row["name"] . "</td><td>" . $row[ "first_mission"] . "</td><td>" . $row["type"] . 

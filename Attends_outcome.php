@@ -9,6 +9,7 @@ $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
 if (!$connection) {
     die('Could not connect:'.mysqli_error());
 }
+// this shows wethear the code runs or not
 else {
     echo "It worked!"."<br>";
 }
@@ -21,10 +22,10 @@ $astronaut_id = $_POST["astronaut_id"];
 
 $sql = "INSERT INTO Attends(mission_id, astronaut_id) VALUES ('$mission_id', '$astronaut_id')";
 if($connection->query ($sql) === TRUE){
-
+// this code is for updating the crew_size when we fill the attends form
   $update =  "UPDATE mission SET crew_size = crew_size + 1 WHERE mission_id = $mission_id";
   mysqli_query($connection, $update);
-
+// this code if for updating the astronaut when we will the attends form
   $update_astronaut_id =  "UPDATE astronaut SET no_missions = no_missions + 1 WHERE astronaut_id = $astronaut_id";
   mysqli_query($connection, $update_astronaut_id);
     

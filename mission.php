@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
     <head>
+      <!-- this code is from bootstrap to run its few code-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +10,7 @@
   </head>
   </head>
   <center><h1 style="background-color:DodgerBlue;">Welcome to Dynamite forms</h1></center>
+  <!-- this is a nav-bar code-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       
@@ -36,6 +38,7 @@
            
            
         </ul>
+        <!-- here it is search button code-->
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
@@ -55,7 +58,8 @@
     <center><h1>The Mission Form</h1></center>  
       </div>                                                                                                               
 </body>
-<body background="sky 2.jfif">  
+<body background="sky 2.jfif"> 
+  <!-- this is the form code --> 
 <form action="mission_outcome.php" method ="POST">
 <center>
 <div class="w3-text-red">
@@ -65,10 +69,12 @@ launch_date: <input type="date" name="launch_date"><br><br>
 type: <input type="text" name="type"><br><br>
 crew_size: <input type="text" name="crew_size"><br><br>
 target_id: <input type="text" name="target_id"><br><br>
+<!-- this is a submit button code to insert data-->
 <input type="submit"></center><br><br>
       </div>
 
 </form>
+<!-- this code can show as the data inserted in mission table-->
 <center><a href="table_mis.php"><button>Show Table</button></a></center>
 </body>
 </html>

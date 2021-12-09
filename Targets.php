@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
     <head>
+      <!-- this is a bootstrap code-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +10,7 @@
   </head>
   </head>
   <center><h1 style="background-color:DodgerBlue;">Welcome to Dynamite forms</h1></center>
+  <!-- this ia a nav-bar code-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       
@@ -36,6 +38,7 @@
            
            
         </ul>
+        <!-- this is a search button code-->
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
@@ -55,10 +58,12 @@
     <center><h1>The Targets</h1></center>  
       </div>                                                                                                                
 </body>
+<!-- this code helps for editing the background image-->
 <body background="sky 2.jfif">  
 <form action="targets_outcome.php" method ="POST">
 <center>
 <div class="w3-text-red">
+  <!-- this is the code for form-->
 name: <input type="text" name="name"><br><br>
 first_mission: <input type="date" name="first_mission"><br><br>
 type: <input type="text" name="type"><br><br>
@@ -71,6 +76,7 @@ no_mission: <input type="number" name="no_mission"><br><br>
 
 </form>
 <center>
+  <!-- this is the code to see the table of targets-->
 <a href="table_tar.php"><button>Show Table</button></a></center>
 </body>
 </html>

@@ -8,6 +8,7 @@
     
   </head>
   </head>
+  <!-- this code is for nav-bar-->
   <center><h1 style="background-color:DodgerBlue;">Welcome to Dynamite forms</h1></center>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -43,6 +44,7 @@
       </div>
     </div>
   </nav>
+  <!-- this is a title code-->
         <title>MY first PHP</title>
 </head>
 <body>
@@ -56,7 +58,9 @@
     <center><h1>The Astronaut</h1></center>  
       </div>                                                                                                                
 </body>
+<!-- this code is for editing background on astronaut page-->
 <body background="sky 2.jfif">  
+  <!-- this is the code for running the form-->
 <form action="Astronaut_outcome.php" method ="POST">
 <center>
 <div class="w3-text-red">
@@ -67,6 +71,7 @@ no_missions: <input type="number" name="no_missions"><br><br>
       </div>
 
 </form>
+<!-- this code is for seeing the table which has database-->
 <center><a href="table_ast.php"><button>Show Table</button></a></center>
 </body>
 </html>
