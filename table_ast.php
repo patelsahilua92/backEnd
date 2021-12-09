@@ -24,6 +24,7 @@
 <table class="w3-table-all w3-hoverable">
     <thead>
     <tr class="w3-light-grey">
+        <th>astronaut_id</th>
             <th>name</th>
             <th>no_missions</th>
 </thead>
@@ -41,7 +42,7 @@ $result = mysqli_query($conn, $sql);
 // this code connects the astronaut database to following page
 if (mysqli_num_rows($result) > 0) { 
     while ($row = mysqli_fetch_assoc($result)) {
-        echo "<tr><td>" . $row["name"] . "</td><td>" . $row["no_missions"] . "</td></tr>";
+        echo "<tr><td>" $row["astronaut_id"] . "</td><td>" .  $row["name"] . "</td><td>" . $row["no_missions"] . "</td></tr>";
         }
 }
 else{
