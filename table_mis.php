@@ -14,7 +14,7 @@
   </head>
   </head>
   <!-- this code is for nav-bar-->
-  <center><h1 style="background-color:DodgerBlue;">Welcome to Target table</h1></center>
+  <center><h1 style="background-color:DodgerBlue;">Welcome to Mission table</h1></center>
   
   <!-- this is a title code-->
         <title>MY first PHP</title>
@@ -55,5 +55,6 @@ else{
 }
 ?>
 </table>
+<a href="mission.php"><button>Return</button></a>
 </body>
 </html>
