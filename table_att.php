@@ -5,7 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-<body>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+  </head>
+  </head>
+  <!-- this code is for nav-bar-->
+  <center><h1 style="background-color:DodgerBlue;">Welcome to Attends table</h1></center>
+  
+  <!-- this is a title code-->
+        <title>MY first PHP</title>
+</head>
+<body background="sky 2.jfif">
     <!-- this is a table code-->
 <table class="w3-table-all w3-hoverable">
     <thead>
@@ -36,5 +50,6 @@ else{
 }
 ?>
 </table>
+<center><a href="Attends.php"><button>Return</button></a></center>
 </body>
 </html>
