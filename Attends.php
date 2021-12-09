@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   </head>
-  <center><h1 style="background-color:DodgerBlue;">Welcome to my PHP</h1></center>
+  <center><h1 style="background-color:DodgerBlue;">Welcome to Dynamite forms</h1></center>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       
