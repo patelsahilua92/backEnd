@@ -52,7 +52,7 @@
   <!-- this is a title code-->
         <title>MY first PHP</title>
 </head>
-<body>
+<body background="sky 2.jfif">
  <!-- this is a table code-->   
 <table class="w3-table-all w3-hoverable">
     <thead>
