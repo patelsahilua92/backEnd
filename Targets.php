@@ -64,11 +64,11 @@
 <center>
 <div class="w3-text-red">
   <!-- this is the code for form-->
-name: <input type="text" name="name"><br><br>
-first_mission: <input type="date" name="first_mission"><br><br>
-type: <input type="text" name="type"><br><br>
-no_mission: <input type="number" name="no_mission"><br><br>
-<input type="submit"><br><br>
+name: <input type="text" name="name" required><br><br>
+first_mission: <input type="date" name="first_mission" required><br><br>
+type: <input type="text" name="type" required><br><br>
+no_mission: <input type="number" name="no_mission" required><br><br>
+<input type="submit" required><br><br>
 <br>
 </center>
       </div>
