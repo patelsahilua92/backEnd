@@ -58,9 +58,7 @@
     <center><h1>The Targets</h1></center>  
       </div>                                                                                                                
 </body>
-<?php
-  include "validation.php";
-  ?>
+
 <!-- this code helps for editing the background image-->
 <body background="sky 2.jfif">  
 <form action="targets_outcome.php" method ="POST">
