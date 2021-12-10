@@ -18,12 +18,12 @@ if (!$db_selected){
     die('Can\'t use ' .DB_NAME.': ' .mysqli_error($connection));
 }
 
-$name = test_input($_POST["name"]); 
-$destination = test_input($_POST["destination"]);
-$launch_date = test_input($_POST["launch_date"]);
-$type = test_input($_POST["type"]);
-$crew_size = test_input($_POST["crew_size"]);
-$target_id = test_input($_POST["target_id"]);
+$name = $_POST["name"]; 
+$destination = $_POST["destination"];
+$launch_date = $_POST["launch_date"];
+$type = $_POST["type"];
+$crew_size = $_POST["crew_size"];
+$target_id = $_POST["target_id"];
 // this code is for where we need to save the data filled in form
 $sql = "INSERT INTO mission( name, destination, launch_date, type, crew_size, target_id) VALUES ( '$name', '$destination', '$launch_date', '$type', '$crew_size', '$target_id')";
 if(!mysqli_query($connection, $sql)){

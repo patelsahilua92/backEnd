@@ -18,8 +18,8 @@ if (!$db_selected){
     die('Can\'t use ' .DB_NAME.': ' .mysqli_error($connection));
 }
 
-$name = test_input($_POST["name"]); 
-$no_missions = test_input($_POST["no_missions"]);
+$name = $_POST["name"]; 
+$no_missions = $_POST["no_missions"];
 // this code is for where we need to save the data filled in form
 $sql = "INSERT INTO astronaut( name, no_missions) VALUES ( '$name', '$no_missions')";
 if(!mysqli_query($connection, $sql)){

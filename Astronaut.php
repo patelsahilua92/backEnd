@@ -50,9 +50,9 @@
         <title>MY first PHP</title>
 </head>
 <body>
-  <?php
-  include "validation.php";
-  ?>
+<?php
+include "validation.php"
+?>
 <style>
               body {
           background-color: yellowgreen;

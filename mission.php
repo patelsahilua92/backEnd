@@ -59,8 +59,8 @@
       </div>                                                                                                               
 </body>
 <?php
-  include "validation.php";
-  ?>
+include "validation.php"
+?>
 <body background="sky 2.jfif"> 
   <!-- this is the form code --> 
 <form action="mission_outcome.php" method ="POST">
