@@ -62,8 +62,8 @@
 <div class="w3-text-red">
   <!-- this is a attends form code-->
 <form action="Attends_outcome.php" method ="POST">
-<center>mission_id: <input type="number" name="mission_id"><br><br>
-astronaut_id: <input type="number" name="astronaut_id"><br><br>
+<center>mission_id: <input type="number" name="mission_id" required><br><br>
+astronaut_id: <input type="number" name="astronaut_id" required><br><br>
 <input type="submit"></center><br><br>
 </div> 
 
