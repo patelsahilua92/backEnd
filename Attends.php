@@ -59,6 +59,7 @@
       </div>                                                                                                                
 </body>
 <?php
+// this is validation code
   include "validation.php";
   ?>
 <body>  

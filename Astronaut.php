@@ -51,6 +51,7 @@
 </head>
 <body>
 <?php
+// this is validation code
 include "validation.php"
 ?>
 <style>
