@@ -58,6 +58,9 @@
           <center><h1>The Attends Form</h1></center>  
       </div>                                                                                                                
 </body>
+<?php
+  include "validation.php";
+  ?>
 <body>  
 <div class="w3-text-red">
   <!-- this is a attends form code-->

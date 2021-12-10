@@ -50,6 +50,9 @@
         <title>MY first PHP</title>
 </head>
 <body>
+  <?php
+  include "validation.php";
+  ?>
 <style>
               body {
           background-color: yellowgreen;
@@ -61,7 +64,8 @@
       </div>                                                                                                                
 </body>
 <!-- this code is for editing background on astronaut page-->
-<body background="sky 2.jfif">  
+<body background="sky 2.jfif">
+
   <!-- this is the code for running the form-->
 <form action="Astronaut_outcome.php" method ="POST">
 <center>
