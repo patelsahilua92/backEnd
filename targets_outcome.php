@@ -9,6 +9,7 @@ $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
 if (!$connection) {
     die('Could not connect:'.mysqli_error());
 }
+// this shows wethear the code runs or not
 else {
     echo "It worked!"."<br>";
 }

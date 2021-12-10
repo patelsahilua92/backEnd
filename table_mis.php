@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Table with database</title>
+        <!-- this is the code is for running bootstrap and css-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
@@ -55,6 +56,7 @@ else{
 }
 ?>
 </table>
+<!--this code is to go back to the form page-->
 <center><a href="mission.php"><button>Return</button></a></center>
 </body>
 </html>
