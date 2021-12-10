@@ -17,11 +17,11 @@ $db_selected = mysqli_select_db($connection, DB_NAME);
 if (!$db_selected){
     die('Can\'t use ' .DB_NAME.': ' .mysqli_error($connection));
 }
-$id = $_POST["id"];
-$name = $_POST["name"]; 
-$first_mission = $_POST["first_mission"];
-$type = $_POST["type"];
-$no_mission = $_POST["no_mission"];
+$id = test_input($_POST["id"]);
+$name = test_input($_POST["name"]); 
+$first_mission = test_input($_POST["first_mission"]);
+$type = test_input($_POST["type"]);
+$no_mission = test_input($_POST["no_mission"]);
 
 $sql = "INSERT INTO targets( id, name, first_mission, type, no_mission) VALUES ( '$id', '$name', '$first_mission', '$type', '$no_mission')";
 if(!mysqli_query($connection, $sql)){
